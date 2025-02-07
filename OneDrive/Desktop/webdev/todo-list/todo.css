@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(196, 212, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color:rgb(232, 237, 253) ;
+    color: rgb(65, 77, 93);
+    border-radius: 20px;
+    text-align: center;
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+}
+.add-task{
+    background-color:rgb(47, 99, 229);
+    color: white;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgba(5, 139, 248, 0.962);
+    }
+}
+
+input[type=text]{
+    background-color: white;
+    color: black;
+    padding:8px;
+    border:0;
+    border-radius:5px;
+    margin: 5px;
+}
+.delete{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    right: 4px;
+    top:4px;
+    &:hover{
+        background-color: rgb(197, 4, 4);
+    }
+}
+.completed{
+    text-decoration: line-through;
+    color: rgb(88, 98, 110);
+}
+ul{
+    margin-left: -34px;
+}
+li{
+    list-style: none;
+    background-color: #fffeff;
+    color: rgb(65, 77, 93);
+    text-align: start;
+    height: 40px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    margin:8px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+    
+ .listelements{
+    margin: 8px;
+    padding: 12px;
+    margin-top: 16px;
+   
+}  
+
+   
